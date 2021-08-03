@@ -1,0 +1,152 @@
+
+/* body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.menu {
+    float: left; 
+    display: inline-block; 
+    position: static; 
+    width:100%; 
+    height:50%; 
+    background-color: rgba(59, 59, 59, 0.945);
+    margin-top : 250px;
+}
+
+
+.board {
+    margin-top: 20%;
+    display: inline-block; 
+    position: fixed; 
+    left:60%; 
+    height:100%; 
+    right:0; 
+    margin-left:45%;
+}
+
+.group-main-text{
+    margin-top: 25%;
+    padding: 0px;
+    color: #fff;
+}
+
+ margin-top: 50px; 
+ margin-right: 100px; 
+ margin-left: 0px; 
+ padding:0;
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 10%;
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+} */
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%;
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 80%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.group-main-text{
+    padding-top: 20%;
+    padding-left: 5%;
+    color: #fff;
+}
+
+.menu {
+    /* float: left;  */
+    /* display: inline-block;  */
+    position: static; 
+    width:100%; 
+    height:50%; 
+    background-color: rgba(66, 65, 65, 0.945);
+    margin-top : 150px;
+}
